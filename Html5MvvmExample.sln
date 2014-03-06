@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5MvvmExample.Model", "Html5MvvmExample.Model\Html5MvvmExample.Model.csproj", "{EF9F9A34-4785-4D41-A3D2-1FEF99C571AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5MvvmExample.Web", "Html5MvvmExample.Web\Html5MvvmExample.Web.csproj", "{43988B3A-C6C3-42B2-9A0D-8229AA4AB1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5MvvmExample", "Html5MvvmExample\Html5MvvmExample.csproj", "{D2AC93BC-529B-405A-891C-82AB8BB86A42}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://organom.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Html5MvvmExample\\Html5MvvmExample.csproj
+		SccProjectName1 = Html5MvvmExample
+		SccLocalPath1 = Html5MvvmExample
+		SccProjectUniqueName2 = Html5MvvmExample.Model\\Html5MvvmExample.Model.csproj
+		SccProjectName2 = Html5MvvmExample.Model
+		SccLocalPath2 = Html5MvvmExample.Model
+		SccProjectUniqueName3 = Html5MvvmExample.Web\\Html5MvvmExample.Web.csproj
+		SccProjectName3 = Html5MvvmExample.Web
+		SccLocalPath3 = Html5MvvmExample.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9F9A34-4785-4D41-A3D2-1FEF99C571AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9F9A34-4785-4D41-A3D2-1FEF99C571AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9F9A34-4785-4D41-A3D2-1FEF99C571AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9F9A34-4785-4D41-A3D2-1FEF99C571AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43988B3A-C6C3-42B2-9A0D-8229AA4AB1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43988B3A-C6C3-42B2-9A0D-8229AA4AB1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43988B3A-C6C3-42B2-9A0D-8229AA4AB1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43988B3A-C6C3-42B2-9A0D-8229AA4AB1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AC93BC-529B-405A-891C-82AB8BB86A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AC93BC-529B-405A-891C-82AB8BB86A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AC93BC-529B-405A-891C-82AB8BB86A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AC93BC-529B-405A-891C-82AB8BB86A42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

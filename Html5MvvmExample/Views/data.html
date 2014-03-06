@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <script type="text/javascript" src="../Scripts/jquery.min.js"></script>
+        <script type='text/javascript' src='../Scripts/knockout-2.2.1.js'></script>
+        <script type="text/javascript" src="../ViewModels/data.js"></script>
+    </head>
+    <body>
+        <div>
+            <form id="addDataForm">
+                <p>
+                    <input id="txtData" type="text" required="required" placeholder="data" data-bind="value: toAddData" />
+                    <input type="button" id="submitaddDataForm" value="Add Data" data-bind="click: addData" />
+                </p>
+            </form>
+        </div>
+        <div>
+            <form id="getDataForm">
+                <p> <input type="button" id="submitgetDataForm" value="Get Data" data-bind="click: getData" /> </p>
+            </form>
+        </div>
+
+        <div>
+            <p data-bind="text: log" />
+        </div>
+        
+    </body>
+</html>
